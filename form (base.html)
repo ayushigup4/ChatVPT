@@ -1,0 +1,42 @@
+<form>
+    <div class="form-group">
+      <label for="exampleFormControlInput1">Name</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John Doe">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlInput2">Weight in lbs</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="150">
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlSelect1">Gender</label>
+      <select class="form-control" id="exampleFormControlSelect1">
+        <option>Male</option>
+        <option>Female</option>
+        <option>Non-binary</option>
+      </select>
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlSelect2">Age</label>
+        <select class="form-control" id="exampleFormControlSelect2">
+          <option>18-25</option>
+          <option>25-35</option>
+          <option>35-45</option>
+          <option>45-55</option>
+          <option>55-65</option>
+          <option>65+</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlSelect3">How long is your workout?</label>
+        <select class="form-control" id="exampleFormControlSelect2">
+          <option>15 minutes</option>
+          <option>30 minutes</option>
+          <option>45 minutes</option>
+          <option>60 minutes</option>
+          <option>60+ minutes</option>
+        </select>
+      </div>
+      <div class="col-auto">
+        <button type="submit" class="btn btn-primary mb-2">Submit</button>
+      </div>
+  </form>
