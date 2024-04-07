@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatVPT Chatbot</title>
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <div class="main">
+
+        <div class="title-container">
+            <img src="chatvpt.png" alt="ChatVPT Logo">
+        </div>
+
+        <button class="chatbot-toggler">
+            <span><img src="https://img.icons8.com/?size=256&id=54385&format=png" alt=""></span>
+            <span><img src="https://img.icons8.com/?size=256&id=71200&format=png" alt=""></span>
+        </button>
+        <div class="chatbot">
+            <header>
+                <img class="logo-in-chat" src="chatvpt.png" alt="ChatVPT Logo">
+                <small><img class="online" src="https://img.icons8.com/?size=256&id=JIlJqN3SJL07&format=png" alt="Online">Online</small>
+                <span class="close-btn"></span>
+            </header>
+            <ul class="chatbox">
+                <li class="chat incoming">
+                    <span><img src="https://img.icons8.com/?size=256&id=37410&format=png" alt=""></span>
+                    <p>Hi there! Welcome to ChatVPT. Let's create a custom workout for you.</p>
+                </li>
+                 <li class="chat incoming">
+                    <span><img src="https://img.icons8.com/?size=256&id=37410&format=png" alt=""></span>
+                    <p>What equipment do you have available for your workout, and how long would you like your workout to be?</p>
+                </li>
+            </ul>
+            
+            <div class="chat-input">
+                <textarea placeholder="Enter a message..." spellcheck="false" required></textarea>
+                <span id="send-btn"><img src="https://img.icons8.com/?size=256&id=ZznWGhUzgWtS&format=png" alt=""></span>
+                <button class="complete-btn" style="display: none;">Complete</button> 
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
